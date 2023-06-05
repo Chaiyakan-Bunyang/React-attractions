@@ -1,0 +1,14 @@
+.app-search{
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+  .app-search-input{
+    width: 78.5rem;
+    height: 2rem;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .app-search-input:focus{
+    outline: none;
+  }
