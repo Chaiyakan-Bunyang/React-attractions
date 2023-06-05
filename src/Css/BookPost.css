@@ -19,16 +19,21 @@
 }
 .book-post-content{
     position: relative;
-    max-width: 1200px;
-    background-color: black;
+    max-width: 800px;
+    background-color: #eee;
+    padding: 50px;
+    border-radius: 10px;
 }
 .book-post-content img{
 display: block;
 max-width: 100%;
-max-height: 650px;
+max-height: 950px;
 margin: 0 auto;
 }
-.book-post-content h4{
-    color: #fff;
+.book-post-content h4,.book-post-content h2{
+    color: #a70e0e;
+    margin-top: 50px;
+}
+.book-post-content h2{
     text-align: center;
 }

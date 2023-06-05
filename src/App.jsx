@@ -17,13 +17,13 @@ function App() {
   const [searchText,setSearchText] = useState("");
 
   function onBookClick(bookId){
-    setSelectedbook(books[bookId-1])
+    setSelectedbook(items[bookId-1])
   }
   function closeBookClick(){
     setSelectedbook(null);
   }
-  const filterBooks = books.filter((book)=>{
-    return book.title.toUpperCase().includes(searchText.toUpperCase())
+  const filterBooks = items.filter((book)=>{
+    return book.name.toUpperCase().includes(searchText.toUpperCase())
   })
   const bookElement = filterBooks.map((book,index)=>{
       return <AppBookitem book={book} key={index} onBookClick={onBookClick}/>
